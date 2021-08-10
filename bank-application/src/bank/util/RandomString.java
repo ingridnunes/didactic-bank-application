@@ -6,6 +6,20 @@ package bank.util;
 import java.util.Random;
 
 /**
+ * This class will efficiently generate insecure random
+ * alpha-numeric Strings.
+ * 
+ * The code is on 
+ * <a href="https://gist.github.com/twaddington/3252334">GitHub</a>. 
+ * 
+ * <p>It is largely based on
+ * <a href="http://stackoverflow.com/a/41156/772122">this example</a>
+ * from Stack Overflow by erickson.</p>
+ *
+ * <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">
+ *   Licensed under an Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+ * </a></p>
+ *
  * @author ingrid
  * 
  */
