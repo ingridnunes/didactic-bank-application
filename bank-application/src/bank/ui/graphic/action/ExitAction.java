@@ -28,7 +28,7 @@ public class ExitAction extends BankAction {
 		putValue(Action.ACCELERATOR_KEY,
 				KeyStroke.getKeyStroke(KeyEvent.VK_F4, ActionEvent.ALT_MASK));
 		putValue(Action.NAME, textManager.getText("action.exit"));
-		setEnabled(true);
+		super.setEnabled(true);
 		this.logoutAction = logoutAction;
 	}
 
@@ -47,7 +47,7 @@ public class ExitAction extends BankAction {
 
 	@Override
 	public void setEnabled(boolean newValue) {
-		setEnabled(true);
+		// Do nothing
 	}
 
 }
